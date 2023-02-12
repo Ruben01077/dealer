@@ -1,8 +1,11 @@
 {
+  "homepage":"http://Ruben01077.github.io/dealer",
   "name": "dealer",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +17,9 @@
     "express-react-views": "^0.11.0",
     "react": "^18.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ruben01077/dealer.git"
