@@ -1,20 +1,36 @@
-import React from 'react'
+const React = require('react')
 
-function Default(html) {
-  return (
+function Def (html) {
+    return (
+        <html>
+            <head>
+                <title>Title</title>
+                <link rel="stylesheet" href="/css/style.css" />
+               
+            </head>
+            <body>
+               
+                <div className='main_div'>
+                    <div className='nav_bar'>
+
+                        <img className='car_mart_logo' src="/car_mart.png" alt="" />
+                        <div className='list_div'>
+                            <li>Home</li>
+                            <li>inventory</li>
+                            <li>Contact us</li>
+                            <li>Appoitment</li>
+                        </div>
+                        
+
+                    </div>
+                </div>
+                
+                {html.children}
+                
+            </body>
+        </html>
+    )
+  }
   
-   <html lang="en">
-   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-   </head>
-   <body>
-    {html.children}
-   </body>
-   </html>
-  )
-}
 
-export default Default
+module.exports = Def

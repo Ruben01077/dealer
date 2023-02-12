@@ -1,9 +1,8 @@
 const router = require("express").Router()
 
-function home(){
-
-
-}
+router.get("/", (req, res)=>{
+    res.render("home")
+})
 
 
 
