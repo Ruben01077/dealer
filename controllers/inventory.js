@@ -1,55 +1,46 @@
 const router = require('express').Router()
-
-router.get('/', (req, res)=>{
-
-    let cars = [{
-
-        make: "Toyota",
-        model: 'Prius',
-        year: 2019,
-        mileage: 47000,
-        vin: "SDFJSJFSDF154S1F5",
-        price: 15000,
-        transmission: "Automatic",
-        drivetrain: "FWD",
-        fuel_type: "Hybrid",
-        doors: 4,
-
-        pictures:[
-            "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP557/19fc0ef21bf048908bec62865d4b3718_ful.jpg",
-            "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP557/7f4cf04874aa4de5b6c5c9d4b30e1803_ful.jpg"
-
-    
-         ]
-    },
-    {
-
-        make: "Toyota",
-        model: 'Prius',
-        year: 2019,
-        mileage: 47000,
-        vin: "SDFJSJFSDF154S1F5",
-        price: 15000,
-        transmission: "Automatic",
-        drivetrain: "FWD",
-        fuel_type: "Hybrid",
-        doors: 4,
-        pictures:[
-            "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP557/7f4cf04874aa4de5b6c5c9d4b30e1803_ful.jpg",
-            "https://cs.copart.com/v1/AUTH_svc.pdoc00001/LPP557/19fc0ef21bf048908bec62865d4b3718_ful.jpg"
-
-    
-         ]
-    }
+db = require('../models')
 
 
 
-
-    ]
-
-    res.render("inventory/inventory", {cars})
-
+router.get('/', (req, res) => {
+  res.send('GET /places stub')
 })
 
+router.post('/', (req, res) => {
+  res.send('POST /places stub')
+})
+
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
+
+router.get('/:id', (req, res) => {
+  res.send('GET /places/:id stub')
+})
+
+router.put('/:id', (req, res) => {
+  res.send('PUT /places/:id stub')
+})
+
+router.delete('/:id', (req, res) => {
+  res.send('DELETE /places/:id stub')
+})
+
+router.get('/:id/edit', (req, res) => {
+  res.send('GET edit form stub')
+})
+
+router.post('/:id/rant', (req, res) => {
+  res.send('GET /places/:id/rant stub')
+})
+
+router.delete('/:id/rant/:rantId', (req, res) => {
+    res.send('GET /places/:id/rant/:rantId stub')
+})
 
 module.exports = router
+
+
+
+

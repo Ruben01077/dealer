@@ -15,9 +15,9 @@ function Def (html) {
 
                         <img className='car_mart_logo' src="/car_mart.png" alt="" />
                         <div className='list_div'>
-                            <li>Home</li>
-                            <li>inventory</li>
-                            <li>Contact us</li>
+                            <li ><a href='/'>Home</a></li>
+                            <li><a href='inventory'>inventory</a></li>
+                            <li >Contact us</li>
                             <li>Appoitment</li>
                         </div>
                         
