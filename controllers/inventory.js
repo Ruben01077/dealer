@@ -1,22 +1,31 @@
+const inventory = require('../models/inventory')
+
 const router = require('express').Router()
 db = require('../models')
 
 
 
 router.get('/', (req, res) => {
-  res.send('GET /places stub')
+  db.Inventory.find()
+  .then((inventory)=>{
+    res.render('inventory/inventory', {inventory})
+  })
+  .catch(err =>{
+    console.log(err)
+    res.send('error404')
+  })
 })
 
-router.post('/', (req, res) => {
-  res.send('POST /places stub')
-})
-
-router.get('/new', (req, res) => {
-  res.render('places/new')
-})
 
 router.get('/:id', (req, res) => {
-  res.send('GET /places/:id stub')
+  db.Inventory.findById(req.params.id)
+  .then((inventory)=>{
+    res.render('inventory/show', (inventory))
+  })
+  .catch((err =>{
+    console.log('err', err)
+    res.render('error404')
+  }))
 })
 
 router.put('/:id', (req, res) => {

@@ -4,14 +4,16 @@ import Def from '../default'
 
 function inventory (data) {
 
-    let inventoryFormatted = data.cars.map((car)=>{
+    let inventoryFormatted = data.inventory.map((car)=>{
 
       return(
         <div className='main_car_info_div'>
           
              
           <div className='img_div'>
+            <a href={`/inventory/${car.id}`}>
             <img className='img' src={car.pictures} alt="" />
+            </a>  
 
           </div>
 
