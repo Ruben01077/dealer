@@ -16,8 +16,8 @@ db.Inventory.create ([{
 
 },{
 
-    make: "Toyota",
-    model: 'Prius',
+    make: "Kia",
+    model: 'Niro',
     year: 2019,
     mileage: 47000,
     vin: "SDFJSJFSDF154S1F5",
@@ -46,11 +46,3 @@ db.Inventory.create ([{
 
 
 }])
-.then(()=>{
-    console.log('Succes!')
-    process.exit()
-})
-.catch(err =>{
-    console.log("Failure!", err)
-    process.exit()
-})

@@ -17,8 +17,8 @@ function Def (html) {
                         <div className='list_div'>
                             <li ><a href='/'>Home</a></li>
                             <li><a href='inventory'>inventory</a></li>
-                            <li >Contact us</li>
-                            <li>Appoitment</li>
+                            <li ><a>Contact us</a></li>
+                            <li><a>Appoitment</a></li>
                         </div>
                         
 

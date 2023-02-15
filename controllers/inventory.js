@@ -6,6 +6,9 @@ db = require('../models')
 
 
 router.get('/', (req, res) => {
+
+
+
   db.Inventory.find()
   .then((inventory)=>{
     res.render('inventory/inventory', {inventory})
