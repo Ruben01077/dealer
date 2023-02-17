@@ -61,20 +61,8 @@ function inventory (data) {
                   <h3>{car.transmission}</h3>
                 </div>
 
-              
-
-
-
-
+          
               </div>
-
-
-
-
-
-
-
-
 
             </div>
 

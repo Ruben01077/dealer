@@ -12,7 +12,7 @@ const placeSchema = new mongoose.Schema({
     drivetrain: {type:String},
     fuel_type: {type:String},
     doors: {type:Number},
-    pictures:{type:String}
+    pictures:{type:String, default:'no_img.png'}
     
 
     

@@ -6,7 +6,7 @@ db = require('../models')
 
 
 router.get('/', (req, res) => {
-
+  
 
 
   db.Inventory.find()
@@ -20,16 +20,22 @@ router.get('/', (req, res) => {
 })
 
 
+
+
+
+
 router.get('/:id', (req, res) => {
   db.Inventory.findById(req.params.id)
   .then((inventory)=>{
-    res.render('inventory/show', (inventory))
+    res.render('inventory/show', {inventory})
   })
   .catch((err =>{
     console.log('err', err)
     res.render('error404')
   }))
 })
+
+
 
 router.put('/:id', (req, res) => {
   res.send('PUT /places/:id stub')
