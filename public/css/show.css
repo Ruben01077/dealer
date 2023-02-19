@@ -104,8 +104,8 @@
 
 }
 
-.info_div{
-
+.menu-item a {
+  font-size: 30px;
 }
 
 
@@ -125,7 +125,7 @@
 }
 
 .icons img, .wrench{
-  width: 70px;
+  width: 55px;
  
 }
 
