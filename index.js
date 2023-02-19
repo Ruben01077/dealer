@@ -13,6 +13,8 @@ app.use("/inventory", require("./controllers/inventory"))
 
 app.use("/", require("./controllers/home"))
 
+app.use('/contact', require("./controllers/contact"))
+
 
 
 

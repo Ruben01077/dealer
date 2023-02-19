@@ -4,7 +4,7 @@ function Def(html) {
     return (
         <html>
             <head>
-                <title>Title</title>
+                <title>Car Mart</title>
                 <link rel="stylesheet" href="/css/default.css" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -21,7 +21,7 @@ function Def(html) {
                                         <ol>
                                             <li class="menu-item"><a href='/'>Home</a></li>
                                             <li class="menu-item"><a href='inventory'>inventory</a></li>
-                                            <li class="menu-item"><a href=''>Contact us</a></li>
+                                            <li class="menu-item"><a href='/contact'>Contact us</a></li>
                                             <li class="menu-item">  <a href=''>Appoitment</a></li>
                                             <li class="menu-item"> <a href="">Login</a></li>
                                             <li class="menu-item"><a href="">Sign Up</a></li>
