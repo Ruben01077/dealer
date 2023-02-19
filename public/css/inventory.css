@@ -1,5 +1,6 @@
 body{
     background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
   
    
 }
@@ -75,7 +76,7 @@ h1{
 }
 
 .icons img{
-    width: 25px;
+    width: 129px;
     padding-left: 50px;
     padding-right: 50px;
 }

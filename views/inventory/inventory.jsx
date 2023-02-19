@@ -38,7 +38,8 @@ function inventory(data) {
               <div className='icons'>
                 <img src="/price.png" alt="" />
                 <h3>Price</h3>
-                <h3>${car.price}</h3>
+                <h3>{car.price}</h3>
+               
               </div>
 
 
