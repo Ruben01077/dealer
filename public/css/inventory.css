@@ -60,7 +60,10 @@ h1{
     
 }
 
-
+.title{
+    display: flex;
+    flex-direction: row;
+}
 
 .other_info_div{
     display: flex;
