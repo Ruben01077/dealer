@@ -15,6 +15,7 @@ const placeSchema = new mongoose.Schema({
     color:{type:String},
     interior_color:{type:String},
     engine:{type:String},
+    equipment:{type:String},
     pictures:{
         one: {type:String},
         two: {type:String},

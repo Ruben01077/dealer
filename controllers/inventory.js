@@ -12,6 +12,7 @@ router.get('/', (req, res) => {
   db.Inventory.find()
   .then((inventory)=>{
     res.render('inventory/inventory', {inventory})
+    console.log("To inventory")
   })
   .catch(err =>{
     console.log(err)
@@ -28,6 +29,7 @@ router.get('/:id', (req, res) => {
   db.Inventory.findById(req.params.id)
   .then((inventory)=>{
     res.render('inventory/show', {inventory})
+    console.log(req.params.id)
   })
   .catch((err =>{
     console.log('err', err)

@@ -31,17 +31,7 @@ function Def(html) {
 
 
 
-                                    {/* <div class="dropdown">
-                            <button class="dropbtn">Dropdown</button>
-                            <div class="dropdown-content">
-                                <a href='/'>Home</a>
-                                <a href='inventory'>inventory</a>
-                                <a href=''>Contact us</a>
-                                <a href=''>Appoitment</a>
-                                <a href="">Login</a>
-                                <a href="">Sign Up</a>
-                            </div>
-                        </div> */}
+                          
 
 
                                 </div>

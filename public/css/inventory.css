@@ -19,7 +19,8 @@ body{
 display: flex;
 justify-content: center;   
 margin-top: 50px;
-background-color: rgb(141, 140, 131); 
+background-color: azure;
+border: 1px solid;
 filter: drop-shadow(3px 3px 25px black);
 border-radius: 20px;
 padding-top: 20px;

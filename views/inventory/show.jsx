@@ -184,6 +184,22 @@ function show(data) {
                                     <h3>{data.inventory.vin}</h3>
                                 </div>
 
+                                <div className='equipment_div'>
+
+                                    <div className='title'>
+                                        <div>
+                                            <img className='wrench' src="/information.png" alt="" />
+                                        </div>
+                                        <div>
+                                            <h1>Vehicle Equipment</h1>
+                                        </div>
+                                    </div>
+                                    <div className='info'>
+                                        {data.inventory.equipment}
+                                    </div>
+
+                                </div>
+
 
                             </div>
 
