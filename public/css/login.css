@@ -1,0 +1,18 @@
+  
+  .menu-item a {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255,196,0,255);
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    
+    
+  }
+
+  .menu-item a:hover{
+
+    color: rgb(248, 198, 61);
+
+  }
+

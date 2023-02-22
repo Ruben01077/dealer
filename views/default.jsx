@@ -23,8 +23,8 @@ function Def(html) {
                                             <li class="menu-item"><a href='inventory'>inventory</a></li>
                                             <li class="menu-item"><a href='/contact'>Contact us</a></li>
                                             <li class="menu-item">  <a href=''>Appoitment</a></li>
-                                            <li class="menu-item"> <a href="">Login</a></li>
-                                            <li class="menu-item"><a href="">Sign Up</a></li>
+                                            <li class="menu-item"> <a href="/login">Login</a></li>
+                                            <li class="menu-item"><a href="/register">Sign Up</a></li>
 
                                         </ol>
                                     </nav>
