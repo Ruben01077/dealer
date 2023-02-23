@@ -1,10 +1,12 @@
 const express = require("express")
 const app = express()
 const bcrypt = require('bcrypt')
+const mongoose = require('mongoose')
 
 
 require("dotenv").config()
-
+mongoose.set('strictQuery', true)
+mongoose.set('strictQuery', false)
 
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
