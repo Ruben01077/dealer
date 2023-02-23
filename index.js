@@ -1,9 +1,11 @@
 const express = require("express")
 const app = express()
 const bcrypt = require('bcrypt')
-
+const mongoose = require('mongoose')
 
 require("dotenv").config()
+mongoose.set('strictQuery', true)
+mongoose.set('strictQuery', false)
 
 
 app.set('view engine', 'jsx')
@@ -11,6 +13,7 @@ app.engine('jsx', require('express-react-views').createEngine())
 app.use(express.static("public"))
 app.use(express.urlencoded({ extended: true }))
 app.use(express.urlencoded({ extended: false }))
+
 
 
 app.use("/inventory", require("./controllers/inventory"))
