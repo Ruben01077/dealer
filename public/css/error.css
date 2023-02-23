@@ -1,0 +1,33 @@
+body{
+    background-image: url("../home_background.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-color: #04080e;
+
+}
+
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+ 
+
+}
+
+.imgDiv{
+    margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    img{
+   
+        width: 300px;
+     
+    
+    }
+
+}

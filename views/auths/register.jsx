@@ -13,7 +13,7 @@ function register() {
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <link rel="stylesheet" href="/css/register.css" />
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossOrigin="anonymous"/>
-            <title>Registration</title>
+            <title>Sign Up</title>
         </head>
         <body>
 
@@ -39,7 +39,7 @@ function register() {
                 <div className="row">
                   
                   
-                  <h1 className="mb-3 h3">Register</h1>
+                  <h1 className="mb-3 h3">Sign Up</h1>
                   <div className="col-md-12 mb-4">
                     <div className="form-outline">
                       <input type="text" name="name" id="form3Example2" className="form-control" />

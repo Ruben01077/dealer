@@ -4,7 +4,7 @@ function Def(html) {
     return (
         <html>
             <head>
-                <title>Car Mart</title>
+               
                 <link rel="stylesheet" href="/css/default.css" />
                 <link rel="preconnect" href="https://fonts.googleapis.com"/>
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>

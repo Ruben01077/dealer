@@ -10,7 +10,7 @@ function contact() {
                         <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
-                                    <title>My Demo Form</title>
+                                    <title>Contact Us</title>
                                     <link rel="stylesheet" href="/css/contact.css" />
                                         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap"/>
 
