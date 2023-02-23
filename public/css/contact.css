@@ -28,7 +28,7 @@ body{
     content: "";
     width: 120px;
     height: 400px;
-    background-image: url(https://app.formcarry.com/auth-left-shape.png);
+
     background-size: cover;
     position: absolute;
     top: 25vh;
@@ -40,7 +40,7 @@ body{
     content: "";
     width: 120px;
     height: 366px;
-    background-image: url(https://carrier.formcarry.com/templates/fancy/bg_right.png);
+   
     background-size: cover;
     position: absolute;
     top: 24vh;

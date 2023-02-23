@@ -39,21 +39,19 @@ body{
 
 }
 
-html{
-
-}
-
 
 
 .car_mart_logo{
   display: flex;
   width: 290px;
- 
-
-
+  transition: 0.2s;
+  
 }
 
-
+.car_mart_logo:hover{
+  
+  filter: drop-shadow(3px 3px 5px #e10606);
+}
 
 
 .menu {
