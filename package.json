@@ -5,8 +5,8 @@
     "node": "18.14.0"
   },
   "main": "index.js",
-  
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon index.js"
   },
@@ -37,5 +37,6 @@
     "url": "https://github.com/Ruben01077/dealer/issues"
   },
   "homepage": "https://github.com/Ruben01077/dealer#readme",
-  "description": "This is auto dealership website. User can finde different types of car. Also user can submmit request to make appoitment to test drive."
+  "description": "This is auto dealership website. User can finde different types of car. Also user can submmit request to make appoitment to test drive.",
+  "devDependencies": {}
 }
