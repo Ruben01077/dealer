@@ -1,1 +1,1 @@
-This is auto dealership website. User can finde different types of car. Also user can submmit request to make appoitment to test drive. 
+This is auto dealership website. User can finde different types of car and can contact for make a appoitment. In inventory page will be all cars that available now in dealer inventory and user can finde more information about car by click auto picture from inventory page. After that User can know more detail information about car. Each user can sign up and login. 
