@@ -22,7 +22,7 @@ function contact() {
                                                         <img id="fc-sumbul" src="https://carrier.formcarry.com/demo-assets/sumbul-wave.png" alt="Yo 👋" width="120"/>
                                                             
                                                             
-                                                            <p>Submit the form down below, you'll see the message in your dashboard.</p>
+                                                        <p>Submit the form down below, you'll see the message in your dashboard.</p>
                                                     </div>
 
                                                     <section class="formcarry-container">

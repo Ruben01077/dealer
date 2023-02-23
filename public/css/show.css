@@ -1,12 +1,15 @@
 
  
 
-  body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: azure;
-    margin-bottom: 100px;
+    body {
+      font-family: 'Times New Roman', Times, serif;
   
-  }
+      background-color: #04080e;
+      color: #eab406;
+      margin-bottom: 100px;
+  
+  
+    }
   
   .menu-item a {
 

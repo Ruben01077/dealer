@@ -2,7 +2,20 @@
     z-index: 3;
 }
 
-  
+html{
+  height: 100%;
+}
+
+body{
+  background-color: #04080e;
+  color: #eab406;
+
+
+}
+.form-introduction p{
+  color: #eab406;
+  font-size: 20px;
+}
   .container {
     position: relative;
     display: flex;

@@ -30,6 +30,7 @@ router.get('/:id', (req, res) => {
   .then((inventory)=>{
     res.render('inventory/show', {inventory})
     console.log(req.params.id)
+  
   })
   .catch((err =>{
     console.log('err', err)
@@ -39,25 +40,6 @@ router.get('/:id', (req, res) => {
 
 
 
-router.put('/:id', (req, res) => {
-  res.send('PUT /places/:id stub')
-})
-
-router.delete('/:id', (req, res) => {
-  res.send('DELETE /places/:id stub')
-})
-
-router.get('/:id/edit', (req, res) => {
-  res.send('GET edit form stub')
-})
-
-router.post('/:id/rant', (req, res) => {
-  res.send('GET /places/:id/rant stub')
-})
-
-router.delete('/:id/rant/:rantId', (req, res) => {
-    res.send('GET /places/:id/rant/:rantId stub')
-})
 
 module.exports = router
 

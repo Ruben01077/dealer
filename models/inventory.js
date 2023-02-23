@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const placeSchema = new mongoose.Schema({
+const inventorySchema = new mongoose.Schema({
 
     make: {type:String},
     model: {type:String},
@@ -45,5 +45,5 @@ const placeSchema = new mongoose.Schema({
     
 })
 
-module.exports = mongoose.model("Inventory", placeSchema)
+module.exports = mongoose.model("Inventory", inventorySchema)
 

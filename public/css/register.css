@@ -1,4 +1,18 @@
   
+  html body{
+    background-color: #04080e;
+  }
+  .card-body .px-4, .py-5 .px-md-5{
+    background-color: #04080e;
+  border-radius: 0px;
+  }
+  
+  .my-5, .display-5, .fw-bold, .ls-tight{
+
+    color: #eab406;
+  
+  }
+  
   .menu-item a {
     font-family: 'Times New Roman', Times, serif;
     color: rgba(255,196,0,255);
@@ -16,3 +30,7 @@
     color: rgb(248, 198, 61);
 
   }
+
+  main{
+    background-color: azure;  
+}

@@ -10,7 +10,7 @@
 
   z-index: 1;
   filter: drop-shadow(4px 4px 30px black);
-  
+  opacity: 0.9;
   
 }
 
@@ -30,9 +30,11 @@
 body{
   margin: 0px;
   margin-bottom: 1050px;
-  background-color: azure;
- 
-  
+  background-color: #04080e;
+
+  background-image: url("../home_background.jpg");
+  background-size: 100% ;
+  background-repeat: no-repeat;
 
 }
 
@@ -41,6 +43,8 @@ body{
 .car_mart_logo{
   display: flex;
   width: 290px;
+ 
+
 
 }
 
@@ -51,9 +55,6 @@ body{
 
 
   
-
-
-
 
 
 
@@ -63,6 +64,7 @@ body{
   height: 4rem;
  
 }
+
 .menu ol {
   list-style-type: none;
   margin: 10px;
