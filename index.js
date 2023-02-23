@@ -2,18 +2,13 @@ const express = require("express")
 const app = express()
 const bcrypt = require('bcrypt')
 const mongoose = require('mongoose')
-<<<<<<< HEAD
 
-=======
->>>>>>> ab5a2d352c3550ae7b1c340737127b5ad9272c61
+
 
 require("dotenv").config()
 mongoose.set('strictQuery', true)
 mongoose.set('strictQuery', false)
-<<<<<<< HEAD
-=======
 
->>>>>>> ab5a2d352c3550ae7b1c340737127b5ad9272c61
 
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
