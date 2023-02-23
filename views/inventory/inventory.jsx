@@ -67,11 +67,11 @@ function inventory(data) {
                 <h3>{car.doors}</h3>
               </div>
 
-              <div className='icons'>
+              {/* <div className='icons'>
                 <img src="/transmission.png" alt="" />
                 <h3>Transmission</h3>
                 <h3>{car.transmission}</h3>
-              </div>
+              </div> */}
 
 
             </div>

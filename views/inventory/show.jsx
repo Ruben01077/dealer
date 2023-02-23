@@ -114,76 +114,78 @@ function show(data) {
 
 
                         <div className='info_div'>
-                            <div className='title'>
-                                <div>
-                                    <img className='wrench' src="/wrench.png" alt="" />
-                                </div>
-                                <div>
-                                    <h1>Vehicle Specifications</h1>
-                                </div>
-                            </div>
                             <div className='other_info_div'>
+                                <div className='Specification'>
+                                    <div className='title'>
+                                        <div>
+                                            <img className='wrench' src="/wrench.png" alt="" />
+                                        </div>
+                                        <div>
+                                            <h1>Vehicle Specifications</h1>
+                                        </div>
+                                    </div>
+                                    <div className='all_icons'>
+                                        <div className='icons'>
+                                            <img src="/fuel.png" alt="" />
+                                            <h3>Fuel Type</h3>
+                                            <h3>{data.inventory.fuel_type}</h3>
+                                        </div>
 
-                                <div className='icons'>
-                                    <img src="/fuel.png" alt="" />
-                                    <h3>Fuel Type</h3>
-                                    <h3>{data.inventory.fuel_type}</h3>
+
+
+                                        <div className='icons'>
+                                            <img src="/price.png" alt="" />
+                                            <h3>Price</h3>
+                                            <h3>${data.inventory.price}</h3>
+                                        </div>
+
+
+
+                                        <div className='icons'>
+                                            <img src="/drivetrain.png" alt="" />
+                                            <h3>Drivetrain</h3>
+                                            <h3>{data.inventory.drivetrain}</h3>
+                                        </div>
+
+                                        <div className='icons'>
+                                            <img src="/car.png" alt="" />
+                                            <h3>Door</h3>
+                                            <h3>{data.inventory.doors}</h3>
+                                        </div>
+
+                                        <div className='icons'>
+                                            <img src="/transmission.png" alt="" />
+                                            <h3>Transmission</h3>
+                                            <h3>{data.inventory.transmission}</h3>
+                                        </div>
+                                        <div className='icons'>
+                                            <img src="/odo.png" alt="" />
+                                            <h3>Mileage</h3>
+                                            <h3>{data.inventory.mileage}</h3>
+                                        </div>
+
+                                        <div className='icons'>
+                                            <img src="/color.png" alt="" />
+                                            <h3>Exterior Color</h3>
+                                            <h3>{data.inventory.color}</h3>
+                                        </div>
+                                        <div className='icons'>
+                                            <img src="/interior.png" alt="" />
+                                            <h3>Interior Color</h3>
+                                            <h3>{data.inventory.color}</h3>
+                                        </div>
+                                        <div className='icons'>
+                                            <img src="/car-engine.png" alt="" />
+                                            <h3>Engine</h3>
+                                            <h3>{data.inventory.engine}</h3>
+                                        </div>
+                                        <div className='icons'>
+                                            <img src="/vin.png" alt="" />
+                                            <h3>VIN</h3>
+                                            <h3>{data.inventory.vin}</h3>
+                                        </div>
+                                    </div>
                                 </div>
-
-
-
-                                <div className='icons'>
-                                    <img src="/price.png" alt="" />
-                                    <h3>Price</h3>
-                                    <h3>${data.inventory.price}</h3>
-                                </div>
-
-
-
-                                <div className='icons'>
-                                    <img src="/drivetrain.png" alt="" />
-                                    <h3>Drivetrain</h3>
-                                    <h3>{data.inventory.drivetrain}</h3>
-                                </div>
-
-                                <div className='icons'>
-                                    <img src="/car.png" alt="" />
-                                    <h3>Door</h3>
-                                    <h3>{data.inventory.doors}</h3>
-                                </div>
-
-                                <div className='icons'>
-                                    <img src="/transmission.png" alt="" />
-                                    <h3>Transmission</h3>
-                                    <h3>{data.inventory.transmission}</h3>
-                                </div>
-                                <div className='icons'>
-                                    <img src="/odo.png" alt="" />
-                                    <h3>Mileage</h3>
-                                    <h3>{data.inventory.mileage}</h3>
-                                </div>
-
-                                <div className='icons'>
-                                    <img src="/color.png" alt="" />
-                                    <h3>Exterior Color</h3>
-                                    <h3>{data.inventory.color}</h3>
-                                </div>
-                                <div className='icons'>
-                                    <img src="/interior.png" alt="" />
-                                    <h3>Interior Color</h3>
-                                    <h3>{data.inventory.color}</h3>
-                                </div>
-                                <div className='icons'>
-                                    <img src="/car-engine.png" alt="" />
-                                    <h3>Engine</h3>
-                                    <h3>{data.inventory.engine}</h3>
-                                </div>
-                                <div className='icons'>
-                                    <img src="/vin.png" alt="" />
-                                    <h3>VIN</h3>
-                                    <h3>{data.inventory.vin}</h3>
-                                </div>
-
                                 <div className='equipment_div'>
 
                                     <div className='title'>

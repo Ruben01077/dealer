@@ -5,3 +5,25 @@ body{
     background-color: #04080e;
 
 }
+
+.menu a{
+    font-size: 25px;
+  }
+
+
+
+
+
+  @media only screen and (max-width: 1000px) {
+    .icons img{
+
+        width: 100px;
+    padding-left: 35px;
+    padding-right: 35px;
+   
+  }
+  body{
+    background-size: 1500px
+  }
+
+}

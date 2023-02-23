@@ -7,7 +7,7 @@
   color: rgb(248, 198, 61);
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-
+width: 100%;
   z-index: 1;
   filter: drop-shadow(4px 4px 30px black);
   opacity: 0.9;
@@ -31,10 +31,15 @@ body{
   margin: 0px;
   margin-bottom: 1050px;
   background-color: #04080e;
+  filter: drop-shadow(1px 1px 3px rgb(0, 0, 0));
 
   background-image: url("../home_background.jpg");
   background-size: 100% ;
   background-repeat: no-repeat;
+
+}
+
+html{
 
 }
 
@@ -47,14 +52,6 @@ body{
 
 
 }
-
-
-
-
-  
-
-
-  
 
 
 
@@ -86,7 +83,7 @@ body{
   height: 4px;
   border-radius: 50%;
   bottom: 5px;
-  left: calc(50% - 2px);
+  left: calc(50% - -2px);
   background: #FECEAB;
   will-change: transform;
   transform: scale(0);
@@ -156,10 +153,10 @@ body{
   .menu:after {
     content: "";
     position: absolute;
-    top: calc(90% - -8px);
+    top: calc(70% - -2px);
     right: 1rem;
-    width: 40px;
-    height: 5px;
+    width: 33px;
+    height: 4px;
     background: white;
     box-shadow: 0 10px #FFF, 0 -10px #FFF;
     cursor: pointer;
@@ -231,6 +228,20 @@ body{
     top: 50%;
     transform: translateY(-50%);
   }
+
+  body{
+    background-size: 1300px
+  }
+
+ .car_mart_logo{
+ 
+  width: 140px;
+
+}
+
+.main_div{
+  height: 100px;
+}
 }
 
 
