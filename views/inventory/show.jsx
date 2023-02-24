@@ -30,7 +30,7 @@ function show(data) {
 
                     <div className='img_info_div'>
                         <div className='images_div'>
-                            <div >
+                            <div class="item">
                                 <img className='img' src={data.inventory.pictures.one} />
 
                             </div>
